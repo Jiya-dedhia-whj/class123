@@ -1,0 +1,33 @@
+body
+{
+    background-color:lightpink;
+}
+
+.header
+{
+    width: 100%;
+    margin: 0px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    padding: 10px;
+}
+
+.footer
+{
+    position: fixed;
+    width: 100%;
+    bottom : 0;
+    background: grey;
+    font-size: 20px;
+    text-align : center;
+    color:white;
+    line-height: 3;
+}
+
+.note 
+{
+    color: darkblue;
+}
