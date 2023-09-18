@@ -1,9 +1,3 @@
-noseX = 0;
-noseY = 0;
-difference = 0;
-rightwristX = 0;
-leftwristX = 0;
-
 function setup()
 {
     video = createCapture(VIDEO);
@@ -18,9 +12,8 @@ function setup()
 
 function modelLoaded()
 {
-    console.log("Posenet is intialize");
+    console.log("Posenet is intialized");
 }
-
 function gotPoses(results)
 {
     console.log(results);
